@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actions>
+        <action>
+            <actionName>CUSTOM-dev-deploy</actionName>
+            <displayName>dev-deploy</displayName>
+            <goals>
+                <goal>deploy</goal>
+            </goals>
+            <activatedProfiles>
+                <activatedProfile>dev</activatedProfile>
+            </activatedProfiles>
+        </action>
+        <action>
+            <actionName>CUSTOM-dev-site</actionName>
+            <displayName>dev-site</displayName>
+            <goals>
+                <goal>site</goal>
+            </goals>
+            <activatedProfiles>
+                <activatedProfile>dev</activatedProfile>
+            </activatedProfiles>
+        </action>
+    </actions>
